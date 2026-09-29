@@ -1,0 +1,22 @@
+# Model weights and checkpoints
+Phi-3.5-mini-instruct*/
+Meta-Llama-3-8B*/
+*.bin
+*.pt
+*.safetensors
+checkpoint-*/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Experiment tracking
+wandb/
+
+# Secrets
+.env

@@ -1,0 +1,29 @@
+{
+  "phi3.5_mini_1bit": {
+    "model_id": "microsoft/Phi-3.5-mini-instruct",
+    "nbits": 1,
+    "group_size": 64,
+    "quant_zero": false,
+    "quant_scale": false,
+    "axis": 1,
+    "save_path": "./Phi-3.5-mini-instruct_HQQ-1bit/"
+  },
+  "phi3.5_mini_4bit": {
+    "model_id": "microsoft/Phi-3.5-mini-instruct",
+    "nbits": 4,
+    "group_size": 64,
+    "quant_zero": false,
+    "quant_scale": false,
+    "axis": 1,
+    "save_path": "./Phi-3.5-mini-instruct_HQQ-4bit/"
+  },
+  "llama3_8b_2bit": {
+    "model_id": "meta-llama/Meta-Llama-3-8B",
+    "nbits": 2,
+    "group_size": 64,
+    "quant_zero": false,
+    "quant_scale": false,
+    "axis": 1,
+    "save_path": "./Meta-Llama-3-8B_HQQ-2bit/"
+  }
+}
